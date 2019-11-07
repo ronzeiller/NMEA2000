@@ -52,7 +52,9 @@ enum tN2kGNSStype {
                             N2kGNSSt_Chayka=5,
                             N2kGNSSt_integrated=6,
                             N2kGNSSt_surveyed=7,
-                            N2kGNSSt_Galileo=8
+                            N2kGNSSt_Galileo=8,
+                            N2kGNSSt_Undefined=254,
+                            N2kGNSSt_Unavailable=255
                           };
 enum tN2kGNSSmethod {
                             N2kGNSSm_noGNSS=0,
